@@ -15,9 +15,9 @@ public class Atividade03 {
      double  formula =   f = (C * 9/5) + 32;
    
      if (formula < -273.15) {
-        System.out.printf(" ALERTA zero absoluto %f  ", formula);
+        System.out.printf(" ALERTA zero absoluto %.2f  ", formula);
      }else{
-        System.out.printf("Conversão é:   %f  ", formula);
+        System.out.printf("Conversão é:   %.2f  ", formula);
      }
 
    scanner.close();
